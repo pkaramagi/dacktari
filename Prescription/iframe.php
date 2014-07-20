@@ -1,0 +1,1 @@
+<iframe src="https://docs.google.com/file/d/<?php echo $_GET[id]?>/edit#&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>

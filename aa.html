@@ -1,0 +1,45 @@
+<style type="text/css">
+	#social-float div {
+		float:left;
+		padding:5px;
+	}
+</style>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script
+    type="text/javascript">
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=261539983935506";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div id="social-float">
+    <div class="panel twitter" title="Tweet this article">
+        <a href="http://twitter.com/share" class="twitter-share-button"
+           data-url="http://wierdish.com/healthy-food/"
+           data-text="<?php the_title(); ?>"
+         data-count="vertical">Tweet</a>
+    </div>
+
+    <!-- Facebook -->
+    <div class="panel" title="Like on Facebook">
+        <div class="fb-like" data-href="http://wierdish.com/healthy-food/" data-send="false" data-layout="box_count" data-width="50" data-show-faces="true" data-font="segoe ui"></div>
+    </div>
+
+    <div class="sf-plusone">
+        <div class="g-plus" data-href="http://wierdish.com/healthy-food/" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+    </div>
+</div>
